@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Academic Projects</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #fff;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background:linear-gradient(to right, #7f00ff, #e100ff);
+            /* background-color: #ff69b4; */
+            color: white;
+            padding: 1rem 2rem;
+            text-align: center;
+        }
+
+        h1 {
+            margin-bottom: 0.5rem;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .project-card {
+            background-color: rgb(255, 202, 246);
+            border-left: 5px solid #e100ff;
+            padding: 1rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.2s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .project-title {
+            color: #e100ff;
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .project-desc {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        @media (max-width: 600px) {
+            header {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Academic Projects</h1>
+        <p>A showcase of projects I've completed during my academic journey.</p>
+    </header>
+
+    <div class="container">
+        <div class="projects-grid">
+            <div class="project-card">
+                <!-- Example Project 1 -->
+                <div class="project-title">E-commerce Website</div>
+                <div class="project-desc">
+                    A fashion-focused online store built using React and Vite, implementing dynamic product listing and
+                    cart features.
+                </div>
+            </div>
+
+                <!-- Example Project 2 -->
+                <div class="project-card">
+                    <div class="project-title">Fake News Detection System</div>
+                    <div class="project-desc">
+                        A machine learning project using LSTM and CNN models to classify news as real or fake based on
+                        text content.
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">Simple E-Commerce Website (JavaScript + API)</div>
+                    <div class="project-desc">
+                        I developed a responsive e-commerce website using HTML, CSS, and JavaScript, integrated with a public API to dynamically fetch and display product data. The application showcases product cards with images, titles, and prices, providing a user-friendly browsing experience.
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">Online Food Delivery System</div>
+                    <div class="project-desc">
+                        A HTML, CSS, JavaScript and Java project that simplifies ordering food from a specific restaurant.
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-title">Digital UI Alarm Clock</div>
+                    <div class="project-desc">
+                        A HTML, CSS, JavaScript, user friendly alarm clock where you can set alarm to set back on track.
+                    </div>
+                </div>
+        </div>
+    </div>
+    <!-- Add more projects below -->
+    <!-- 
+<div class="project-card">
+  <div class="project-title">Project Title</div>
+  <div class="project-desc">Project description goes here...</div>
+</div>
+-->
+
+</body>
+
+</html>
